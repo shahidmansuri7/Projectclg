@@ -46,4 +46,5 @@ function reset1(){
     lname.value="";
     password1.value="";
     repassword1.value="";
+   
 }
