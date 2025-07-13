@@ -1,20 +1,40 @@
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="LOG-IN.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Education Hub</title>
+<link rel="stylesheet" href="LOG-IN.css">
 </head>
 <body>
 <div class="container"><!--container start-->
 <div class="header"><!--header start-->
 
+<h1>Log-in </h1>
 
 
-    
 </div><!--header ends-->
+
+<div class="content"><!--CONTENT END -->
+
+<div class="box"><!--box for form input-->
+
+    <form action="">
+
+<p class="p1">User Name:</p>
+<input type="text" pattern="[a-z A-Z \s ]{25,50}" title="enter the name which you use for registation " name="username" value="" placeholder="User Name" required  >
+<p class="p2">Password:</p>
+<input type="password   " pattern="" title="Password which you use for registration" name="userpassword" value="" placeholder=" User Password" required><br>
+<p><a href="CREATEACCOUNT.HTML">Create account</a></p><br>
+<button onclick="loginsys()">LOG-IN</button>
+
+
+    </form>
+</div><!--box ennds here-->
+
+</div><!--content ends-->
+
 </div><!--container end-->
-    
+
 </body>
 <script src="LOG-IN.js"></script>
 </html>
